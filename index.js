@@ -124,6 +124,7 @@ function getLearnerData(data) {
   for (let i = 0; i < data.length; i++) {
     const learner = data[i];
     console.log(
+      //`id: [{learner.id}], avg: [{learner.avg}], '1': [{learner[1]}], '2': [{learner[2]}]`
       `id: [${learner.id}], avg: [${learner.avg}], '1': [${learner[1]}], '2': [${learner[2]}]`
     );
   }
